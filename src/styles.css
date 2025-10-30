@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+/* 1️⃣ Reset y box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2️⃣ Asegurar que html, body y app ocupen toda la altura */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* 3️⃣ Estilo base del body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 4️⃣ El componente raíz de Angular debe expandirse */
+app-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* 5️⃣ Si usas layout principal */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 6️⃣ Clase auxiliar opcional */
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
