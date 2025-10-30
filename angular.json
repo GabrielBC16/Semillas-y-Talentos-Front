@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/Semillas-y-Talentos-Front",
+            "outputPath": "dist/Semillas-y-Talentos-Front/browser",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
