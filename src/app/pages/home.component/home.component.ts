@@ -81,7 +81,7 @@ export class HomeComponent {
       description: 'Transformando vidas a través de la educación y el desarrollo de talentos',
       buttonText: 'Conoce Más',
       buttonLink: '/about',
-      textPosition: 'center',
+      textPosition: 'right',
       overlayOpacity: 0.5
     },
     {

@@ -45,7 +45,10 @@ interface FormData {
       <div class="contact-types-section">
         <div class="container">
           <div class="section-header">
-            <app-page-header [backgroundImage]="'imgPrincipal.webp'" [title]="'¿Como quieres contactarmos?'"/>
+            <app-page-header [backgroundImage]="'imgPrincipal.webp'" [title]="'¿Como quieres contactarmos?'" [breadcrumbs]="[
+        { label: 'Inicio', path: '/' },
+        { label: 'Contacto', path: '/contact' }
+      ]"/>
           </div>
 
           <div class="contact-types-grid">

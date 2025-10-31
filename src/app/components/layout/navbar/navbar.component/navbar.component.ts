@@ -29,6 +29,7 @@ interface NavLink {
             <a 
               [routerLink]="link.path" 
               routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }"
               class="nav-link">
               {{ link.label }}
             </a>
@@ -235,13 +236,13 @@ interface NavLink {
       left: 0;
       width: 0;
       height: 2px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #667eea 0%, #1bb335ff 100%);
       transition: width 0.3s ease;
     }
 
     .nav-link:hover,
     .nav-link.active {
-      color: var(--primary-color);
+      color: linear-gradient(135deg, #667eea 0%, #1bb335ff 100%);
     }
 
     .nav-link:hover::after,
@@ -359,7 +360,7 @@ interface NavLink {
     .sidebar-title {
       font-size: 1.25rem;
       font-weight: 700;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #667eea 0%, #1bb335ff 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -410,7 +411,7 @@ interface NavLink {
       gap: 0.75rem;
       margin: 1rem 2rem;
       padding: 1rem;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #667eea 0%, #1bb335ff 100%);
       color: white;
       text-decoration: none;
       border-radius: 12px;

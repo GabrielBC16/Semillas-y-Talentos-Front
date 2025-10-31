@@ -128,7 +128,7 @@ export interface ValueItem {
             <div class="values-grid">
               @for (value of values(); track $index) {
                 <div class="value-card">
-                  <div class="value-icon" [innerHTML]="value.icon | safeHtml"></div>
+                  <img class="value-icon" [src]="value.icon" alt="{{ value.title }}">
                   <h4 class="value-title">{{ value.title }}</h4>
                   <p class="value-description">{{ value.description }}</p>
                 </div>
@@ -136,7 +136,7 @@ export interface ValueItem {
             </div>
           </div>
         }
-
+        
         <!-- Timeline Section (opcional) -->
         @if (timeline() && timeline().length > 0) {
           <div class="timeline-section">
@@ -237,7 +237,7 @@ export interface ValueItem {
     .stat-number {
       font-size: 2rem;
       font-weight: 800;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #667eea 0%, #1bb335ff 100%);  
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -266,7 +266,7 @@ export interface ValueItem {
       left: -20px;
       width: 150px;
       height: 150px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #667eea 0%, #1bb335ff 100%);   
       border-radius: 30px;
       opacity: 0.15;
       z-index: -1;
@@ -284,12 +284,11 @@ export interface ValueItem {
       flex-direction: column;
       gap: 1.5rem;
     }
-
     .section-tag {
       display: inline-block;
       padding: 0.5rem 1rem;
       background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-      color: #667eea;
+      color: #0148ad;
       border-radius: 50px;
       font-size: 0.875rem;
       font-weight: 600;
@@ -301,7 +300,7 @@ export interface ValueItem {
     .section-title {
       font-size: 3rem;
       font-weight: 800;
-      color: #1a202c;
+      color: #1a2c22ff;
       margin: 0;
       line-height: 1.2;
       letter-spacing: -1px;
@@ -310,7 +309,7 @@ export interface ValueItem {
     .section-subtitle {
       font-size: 1.5rem;
       font-weight: 600;
-      color: #667eea;
+      color: #0148ad;
       margin: 0;
       line-height: 1.4;
     }
@@ -346,7 +345,7 @@ export interface ValueItem {
     }
 
     .check-icon {
-      color: #667eea;
+      color: #2c91eaff;
       flex-shrink: 0;
       background: rgba(102, 126, 234, 0.1);
       border-radius: 50%;
@@ -396,7 +395,7 @@ export interface ValueItem {
       background: white;
       border-radius: 20px;
       box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
-      color: #667eea;
+      color: #1e90dcff;
     }
 
     .mv-title {
@@ -444,13 +443,14 @@ export interface ValueItem {
 
     .value-card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 10px 30px rgba(102, 126, 234, 0.15);
-      border-color: rgba(102, 126, 234, 0.3);
+      box-shadow: 0 10px 30px rgba(13, 176, 251, 0.15);
+      border-color: rgba(33, 110, 218, 0.3);
     }
 
     .value-icon {
       font-size: 3rem;
       margin-bottom: 1rem;
+      width: 60px;
     }
 
     .value-title {
@@ -492,7 +492,7 @@ export interface ValueItem {
       top: 0;
       bottom: 0;
       width: 3px;
-      background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #667eea 0%, #1bb335ff 100%); 
       transform: translateX(-50%);
     }
 
@@ -537,7 +537,7 @@ export interface ValueItem {
     .timeline-year {
       display: inline-block;
       padding: 0.5rem 1rem;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #667eea 0%, #1bb335ff 100%);  
       color: white;
       border-radius: 50px;
       font-size: 0.875rem;
@@ -554,7 +554,7 @@ export interface ValueItem {
 
     .timeline-description {
       font-size: 1rem;
-      color: #718096;
+      color: #213a5fff;
       line-height: 1.6;
       margin: 0;
     }

@@ -92,8 +92,8 @@ export class ProjectsComponent {
       imagen: 'charlaMicaela.webp',
       categoria: 'Educación',
       fecha: 'Marzo 2024',
-      estado: 'Activo',
-      beneficiarios: 150
+      estado: 'Completado',
+      beneficiarios: 120
     },
     {
       id: 'politecnico-callao',
@@ -103,27 +103,27 @@ export class ProjectsComponent {
       categoria: 'Liderazgo',
       fecha: 'Enero 2024',
       estado: 'Completado',
-      beneficiarios: 80
+      beneficiarios: 130
     },
     {
-      id: 'mentoria-virtual',
-      titulo: 'Programa de Mentoría Virtual',
-      descripcion: 'Mentoría uno a uno con profesionales voluntarios para jóvenes interesados en desarrollar sus talentos y planificar su futuro profesional.',
+      id: 'orientacion-vocacional-peru-kawachi',
+      titulo: 'Charlas de orientación vocacional en I.E. Peru Kawachi',
+      descripcion: 'Charlas a todos los salones de 5to y 4to de Secundaria, en la zona Los Olivos.',
       imagen: 'imgCharla.webp',
       categoria: 'Mentoría',
       fecha: 'En curso',
-      estado: 'Activo',
-      beneficiarios: 45
+      estado: 'Completado',
+      beneficiarios: 90
     },
     {
-      id: 'becas-educativas',
-      titulo: 'Fondo de Becas Educativas 2024',
-      descripcion: 'Programa de apoyo económico para estudiantes destacados de escasos recursos que desean continuar sus estudios superiores.',
+      id: 'talleer-de-emprendimiento',
+      titulo: 'Taller de Emprendimiento Juvenil',
+      descripcion: 'Taller práctico para jóvenes, para que obtengan conocimiento básico de emprendimientos y habilidades de ventas.',
       imagen: 'charlaSelva.webp',
       categoria: 'Becas',
-      fecha: 'Febrero 2024',
+      fecha: 'Febrero 2025',
       estado: 'Próximo',
-      beneficiarios: 20
+      beneficiarios: 100
     }
   ];
 

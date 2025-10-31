@@ -283,7 +283,7 @@ export interface CardTag {
     }
 
     .card:hover .card-title {
-      color: #667eea;
+      color: #1557fdc0;
     }
 
     .card-subtitle {
@@ -338,7 +338,7 @@ export interface CardTag {
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      color: #667eea;
+      color: #0d4cd4ff;
       font-weight: 600;
       font-size: 0.95rem;
       text-decoration: none;
@@ -436,7 +436,7 @@ export interface CardTag {
       top: -12px;
       left: 50%;
       transform: translateX(-50%);
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #667eea 0%, #1bb335ff 100%);
       color: white;
       padding: 0.375rem 1rem;
       border-radius: 50px;
