@@ -22,7 +22,7 @@ template: `
             <p>Semillas & Talentos se enfoca en inspirar tanto a jóvenes como a padres, brindando una experiencia
                 enriquecedora que mezcla conocimientos prácticos, experiencias personales y mensajes motivadores.</p>
         </div>
-        <div>
+        <div class="video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/j8uSeh_WhXk?si=OzO_dy7fas_FJzfu"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -39,6 +39,22 @@ template: `
 
 `,
 styles: [`
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 h1{
   color: #2c3e50;}
 #hero-section {
@@ -70,6 +86,18 @@ box-sizing: border-box;
 border: 1px solid #004aac;
 border-radius: 15%;
 margin-bottom: 15px;
+}
+
+.video-container{
+  max-width: 560px;
+  height: auto;
+}
+
+@media(max-width: 768px){
+  .video-container{
+    width: 100%;
+    height: auto;
+  }
 }
 `],
 })

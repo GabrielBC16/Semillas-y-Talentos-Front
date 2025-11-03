@@ -4,6 +4,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+/*
+ * 1. Reseteo básico para eliminar márgenes y padding por defecto.
+ * 2. Opcional: Asignar height: 100% permite que los componentes
+ * hijos (como app-root) puedan usar altura completa (ej. height: 100vh).
+ */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/*
+ * 3. El "box-sizing" moderno.
+ * Esto hace que el padding y los bordes se incluyan *dentro* * del ancho y alto total de un elemento, en lugar de sumarse.
+ * Es mucho más intuitivo para manejar layouts.
+ */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 /* 2️⃣ Asegurar que html, body y app ocupen toda la altura */

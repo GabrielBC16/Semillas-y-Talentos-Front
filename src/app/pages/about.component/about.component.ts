@@ -72,7 +72,7 @@ export class AboutComponent {
       description: 'Construimos puentes entre generaciones y creamos redes de apoyo duraderas.'
     },
     {
-      icon: 'valores-icons/8.webp',
+      icon: 'valores-icons/objetivo.webp',
       title: 'Compromiso',
       description: 'Nos dedicamos con pasión a nuestra misión de transformar vidas cada día.'
     },
