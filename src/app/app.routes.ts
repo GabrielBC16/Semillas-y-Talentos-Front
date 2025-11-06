@@ -6,10 +6,17 @@ import { ContactComponent } from './pages/contact.component/contact.component';
 import { DonationsComponent } from './pages/donations.component/donations.component';
 
 export const routes: Routes = [
-    {path: '', component: HomeComponent },
-    {path: 'about', component: AboutComponent },
-    {path: 'projects' , component: ProjectsComponent },
-    {path: 'contact', component: ContactComponent},
-    {path: 'donations', component: DonationsComponent},
-    {path: 'proyectos/charla-micaela-bastidas', component: HomeComponent}
+  { path: '', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'projects', component: ProjectsComponent },
+  {
+    path: 'projects/:id',
+    loadComponent: () =>
+      import(
+        './pages/projects.component/projects-details.component/projects-details.component'
+      ).then((m) => m.ProjectsDetailsComponent),
+  },
+  { path: 'contact', component: ContactComponent },
+  { path: 'donations', component: DonationsComponent },
+  { path: 'projects/charla-micaela-bastidas', component: HomeComponent },
 ];
