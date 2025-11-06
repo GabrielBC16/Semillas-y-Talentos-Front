@@ -11,10 +11,12 @@ export const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   {
     path: 'projects/:id',
+
     loadComponent: () =>
       import(
         './pages/projects.component/projects-details.component/projects-details.component'
       ).then((m) => m.ProjectsDetailsComponent),
+      data: {prerender: false}
   },
   { path: 'contact', component: ContactComponent },
   { path: 'donations', component: DonationsComponent },
