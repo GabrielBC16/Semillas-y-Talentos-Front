@@ -4,12 +4,12 @@ import { Project } from '../../models/project.interface';
 export const PROJECTS: Project[] = [
   {
     id: 'charla-micaela-bastidas',
-    titulo: 'Charla Motivacional I.E. Micaela Bastidas',
+    titulo: 'Charlas Motivacionales en I.E. Micaela Bastidas',
     subtitulo: 'Empoderamiento juvenil para estudiantes de secundaria',
     descripcion:
       'Programa de empoderamiento juvenil enfocado en desarrollo personal y habilidades blandas para estudiantes de 4to y 5to de secundaria.',
     descripcionLarga: `
-      <p>Este proyecto nació con el objetivo de inspirar a los jóvenes de la I.E. Micaela Bastidas a descubrir su potencial y construir un futuro prometedor.</p>
+      <p>Este proyecto nació con el objetivo de inspirar a los jóvenes de la I.E. Micaela Bastidas a descubrir su potencial y puedan apuntar hacia un futuro prometedor.</p>
       <p>Durante 3 meses, realizamos charlas semanales donde abordamos temas como autoestima, proyecto de vida, inteligencia emocional y liderazgo juvenil.</p>
       <p>Los resultados superaron nuestras expectativas, logrando un cambio notable en la actitud y motivación de los estudiantes participantes.</p>
     `,
@@ -22,8 +22,8 @@ export const PROJECTS: Project[] = [
       'micaela-bastidas/galeria-3.jpg',
       'micaela-bastidas/galeria-4.jpg',
     ],
-    fechaInicio: 'Marzo 2024',
-    fechaFin: 'Mayo 2024',
+    fechaInicio: 'Abril 2024',
+    fechaFin: 'Junio 2024',
     beneficiarios: 150,
     ubicacion: 'Los Olivos, Lima',
     institucion: 'I.E. Micaela Bastidas',
@@ -37,7 +37,6 @@ export const PROJECTS: Project[] = [
       '150 estudiantes participaron activamente en las sesiones',
       '85% de los participantes reportaron mayor claridad en sus metas',
       '92% mejoró su percepción sobre sus capacidades personales',
-      '30 estudiantes formaron un grupo de liderazgo estudiantil',
     ],
     logros: [
       { titulo: 'Estudiantes impactados', valor: 150, icono: '🎓' },
@@ -54,10 +53,10 @@ export const PROJECTS: Project[] = [
         imagen: 'assets/images/testimonios/maria.jpg',
       },
       {
-        nombre: 'Prof. Juan Pére',
+        nombre: 'Prof. Juan Pérez',
         rol: 'Director de la I.E. Micaela Bastidas',
         texto:
-          'El impacto de Semillas & Talentos en nuestros estudiantes ha sido extraordinario. Notamos un cambio positivo en su actitud y rendimiento.',
+          'El impacto de Semillas & Talentos en nuestros estudiantes ha sido notable. Percibimos un cambio muy positivo en su actitud hacia el aprendizaje y su interés en oportunidades para su futuro.',
         imagen: 'assets/images/testimonios/juan.jpg',
       },
     ],
@@ -78,21 +77,18 @@ export const PROJECTS: Project[] = [
     titulo: 'Taller de Liderazgo - Politécnico del Callao',
     subtitulo: 'Desarrollando líderes en educación técnica',
     descripcion:
-      'Serie de talleres diseñados para fortalecer capacidades de liderazgo y trabajo en equipo en estudiantes de educación técnica.',
+      'Serie de charlas diseñadas para fortalecer capacidades de liderazgo y trabajo en equipo en estudiantes del Politécnico del Callao.',
     descripcionLarga: `
-      <p>El Politécnico del Callao nos abrió sus puertas para trabajar con estudiantes de carreras técnicas, quienes necesitaban fortalecer sus habilidades de liderazgo para enfrentar el mundo laboral.</p>
-      <p>Diseñamos un programa intensivo de 8 talleres prácticos donde los participantes trabajaron en proyectos reales y desarrollaron competencias esenciales para el liderazgo.</p>
+      <p>El Politécnico del Callao nos abrió sus puertas para brindarles charlas a sus estudiantes de 4to y 5to de secundaria, quienes necesitaban fortalecer sus habilidades de liderazgo.</p>
+      <p>Preparamos charlas enfocadas en liderazgo y trabajo en equipo para brindarles herramientas para enfrentar los retos académicos y profesionales.</p>
     `,
     categoria: 'Liderazgo',
     estado: 'completado',
-    imagenPrincipal: 'assets/images/proyectos/politecnico/principal.jpg',
-    imagenes: [
-      'assets/images/proyectos/politecnico/galeria-1.jpg',
-      'assets/images/proyectos/politecnico/galeria-2.jpg',
-    ],
-    fechaInicio: 'Enero 2024',
-    fechaFin: 'Febrero 2024',
-    beneficiarios: 80,
+    imagenPrincipal: 'politecnico/poli-img1.webp',
+    imagenes: ['politecnico/poli-img4.webp', 'politecnico/poli-img3.webp'],
+    fechaInicio: 'Junio 2024',
+
+    beneficiarios: 120,
     ubicacion: 'Callao, Lima',
     institucion: 'Politécnico del Callao',
     objetivos: [

@@ -651,7 +651,7 @@ import { Project } from '../../../models/project.interface';
         color: #1a202c;
         margin: 0 0 1.5rem 0;
         padding-bottom: 1rem;
-        border-bottom: 3px solid #667eea;
+        border-bottom: 3px solid #1a39c4ff;
       }
 
       /* Descripción */
@@ -772,10 +772,6 @@ import { Project } from '../../../models/project.interface';
 
       .galeria-item:hover .galeria-overlay {
         opacity: 1;
-      }
-
-      .galeria-overlay svg {
-        color: white;
       }
 
       /* Testimonios */
@@ -962,7 +958,7 @@ import { Project } from '../../../models/project.interface';
 
       /* CTA Card */
       .cta-card {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #667eea 0%, #4ba272ff 100%);
         color: white;
       }
 

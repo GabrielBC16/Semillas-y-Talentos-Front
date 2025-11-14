@@ -91,7 +91,7 @@ export class ProjectsComponent {
   proyectos: Proyecto[] = [
     {
       id: 'charla-micaela-bastidas',
-      titulo: 'Charla Motivacional I.E. Micaela Bastidas',
+      titulo: 'Charlas Motivacionales en I.E. Micaela Bastidas',
       descripcion:
         'Programa de empoderamiento juvenil enfocado en desarrollo personal y habilidades blandas para estudiantes de 4to y 5to de secundaria.',
       imagen: 'charlaMicaela.webp',
@@ -107,7 +107,7 @@ export class ProjectsComponent {
         'Serie de talleres diseñados para fortalecer capacidades de liderazgo y trabajo en equipo en estudiantes de educación técnica.',
       imagen: 'charlaPolitecnico.webp',
       categoria: 'Liderazgo',
-      fecha: 'Enero 2024',
+      fecha: 'Junio 2024',
       estado: 'Completado',
       beneficiarios: 130,
     },
@@ -117,7 +117,7 @@ export class ProjectsComponent {
       descripcion: 'Charlas a todos los salones de 5to y 4to de Secundaria, en la zona Los Olivos.',
       imagen: 'imgCharla.webp',
       categoria: 'Mentoría',
-      fecha: 'En curso',
+      fecha: 'Julio 2025',
       estado: 'Completado',
       beneficiarios: 90,
     },
